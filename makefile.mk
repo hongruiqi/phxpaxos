@@ -14,10 +14,10 @@ GLOG_INCLUDE_PATH=/usr/include
 PHXPAXOS_INCLUDE_PATH=$(SRC_BASE_PATH)/include
 PHXPAXOS_PLUGIN_PATH=$(SRC_BASE_PATH)/plugin/include
 
-PROTOBUF_LIB_PATH=/usr/lib
-LEVELDB_LIB_PATH=/usr/lib
-GFLAGS_LIB_PATH=/usr/lib
-GLOG_LIB_PATH=/usr/lib
+PROTOBUF_LIB_PATH=/usr/x86_64-linux-gnu/lib
+LEVELDB_LIB_PATH=/usr/x86_64-linux-gnu/lib
+GFLAGS_LIB_PATH=/usr/x86_64-linux-gnu/lib
+GLOG_LIB_PATH=/usr/x86_64-linux-gnu/lib
 GRPC_LIBE_PATH=/usr/lib
 OPEN_SSL_LIB_PATH=/usr/lib
 PHXPAXOS_LIB_PATH=$(SRC_BASE_PATH)/lib
